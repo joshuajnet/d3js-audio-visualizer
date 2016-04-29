@@ -32,7 +32,7 @@ $(document).ready(function() {
 
 	  function createSvg(parent, height, width) {
 		  	  	
-	    return d3.select(parent).append('div').classed('svg-container', true).append('svg').attr('x','0px').attr('y','0px').attr('preserveAspectRatio', 'xMinYMin meet').attr('viewBox',  '0 0 ' + width +' '+ height).classed("svg-img", true);
+	    return d3.select(parent).append('div').classed('svg-container', true).append('svg').attr('x','0px').attr('y','0px').attr('preserveAspectRatio', 'xMinYMid meet').attr('viewBox',  '0 0 ' + width +' '+ height).classed("svg-img", true);
 	    
 	  }
 	  	
